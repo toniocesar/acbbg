@@ -8,9 +8,10 @@ with st.container():
 
     with col1:
         st.image(r"albums/DISC 1 HOM M3/FIRE IN YOUR HEART - front.jpg")
+        st.image(r"albums/DISC 1 HOM M3/FIRE IN YOUR HEART - back.png")
 
     with col2:
-        with st.container(height=400):
+        with st.container(height=700):
             st.subheader("RAIN FOREST")
             st.audio(r"albums/DISC 1 HOM M3/A1-RAIN FOREST acbbg.mp3")
             st.subheader("FIRST TIMER")
