@@ -93,12 +93,12 @@ for album_name, album_data in albums.items():
                     st.image(image_path)
         
         with col2:
-            # Display tracks
+            # Display tracks with expandable sections
             with st.container(height=700):
                 for track_name, track_file in album_data["tracks"]:
-                    st.subheader(track_name)
-                    audio_path = rf"albums/{album_data['folder']}/{track_file}"
-                    st.audio(audio_path)
+                    with st.expander(track_name):
+                        audio_path = rf"albums/{album_data['folder']}/{track_file}"
+                        st.audio(audio_path)
     
     st.divider()
 
