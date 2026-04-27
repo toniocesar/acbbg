@@ -93,13 +93,12 @@ for album_name, album_data in albums.items():
                     st.image(image_path)
         
         with col2:
-            # Display tracks with checkboxes for selection
-            with st.container(height=700):
-                for track_name, track_file in album_data["tracks"]:
-                    selected = st.checkbox(track_name, key=f"{album_name}_{track_name}")
-                    if selected:
-                        audio_path = rf"albums/{album_data['folder']}/{track_file}"
-                        st.audio(audio_path)
+            # Display tracks with checkboxes
+            for track_name, track_file in album_data["tracks"]:
+                selected = st.checkbox(track_name, key=f"{album_name}_{track_name}")
+                if selected:
+                    audio_path = rf"albums/{album_data['folder']}/{track_file}"
+                    st.audio(audio_path)
     
     st.divider()
 
