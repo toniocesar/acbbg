@@ -8,8 +8,7 @@ albums = {
     "1984": {
         "folder": "1984 SON M3",
         "images": [
-            "CAPA  1984   ( acbbg) .jpg",
-            "ANT 1984.jpg"
+            "CAPA  1984   ( acbbg) .jpg"
         ],
         "tracks": [
             ("FIND ME AWAY", "1- FIND ME AWAY acbbg.mp3"),
