@@ -5,7 +5,19 @@ st.title("Rock AC")
 
 # Album definitions with tracks
 albums = {
-    "HOME 2001": {
+    "1984": {
+        "folder": "1984 SON M3",
+        "images": [
+            "CAPA  1984   ( acbbg) .jpg",
+            "ANT 1984.jpg"
+        ],
+        "tracks": [
+            ("FIND ME AWAY", "1- FIND ME AWAY acbbg.mp3"),
+            ("NO TIME TO PRETEND", "2- NO TIME TO PRETEND acbbg.mp3"),
+            ("FAR PLACE GIRL", "3- FAR PLACE GIRL acbbg.mp3"),
+        ]
+    },    
+    "HOME 1995": {
         "folder": "DISC 1 HOM M3",
         "images": [
             "CAPA HOME 1 ( ACCBG) 1995.png",
@@ -23,19 +35,7 @@ albums = {
             ("SYLENT WATCHER", "A10- SYLENT WATCHER acbbg.mp3"),
         ]
     },
-    "1984": {
-        "folder": "1984 SON M3",
-        "images": [
-            "CAPA  1984   ( acbbg) .jpg",
-            "ANT 1984.jpg"
-        ],
-        "tracks": [
-            ("FIND ME AWAY", "1- FIND ME AWAY acbbg.mp3"),
-            ("NO TIME TO PRETEND", "2- NO TIME TO PRETEND acbbg.mp3"),
-            ("FAR PLACE GIRL", "3- FAR PLACE GIRL acbbg.mp3"),
-        ]
-    },
-    "FIRE IN YOUR HEART": {
+    "FIRE IN YOUR HEART - 2001": {
         "folder": "FIRE IN YOUR HEART -- acbbg",
         "images": ["FIRE IN YOUR HEART - front.jpg",
                    "FIRE IN YOUR HEART - back.png"],
@@ -53,7 +53,7 @@ albums = {
             ("BETRAY YOU", "B92- BETRAY YOU acbbg.mp3"),
         ]
     },
-    "MARAU": {
+    "MARAU - 2024": {
         "folder": "MARAU -- ( acbbg) 2019   ( TWIMC final edition)",
         "images": ["CAPA MARAU ( Twimc acbbg).png",
                    "CAPA MARAU ( Twimc acbbg).png"],
